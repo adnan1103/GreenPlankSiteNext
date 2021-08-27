@@ -13,7 +13,7 @@ import Image3 from "../assets/images/products/innerPages/staket_system/Private/i
 import Image4 from "../assets/images/products/innerPages/staket_system/Private/image4.webp";
 import Image5 from "../assets/images/products/innerPages/staket_system/Private/image5.webp";
 import Image6 from "../assets/images/products/innerPages/staket_system/Private/image6.webp";
-import Image7 from "../assets/images/products/innerPages/staket_system/Private/Image7.webp";
+import Image7 from "../assets/images/products/innerPages/staket_system/Private/image7.webp";
 
 import Imagecolor1 from "../assets/images/colors/novofence-private/wood-grey.png";
 import Imagecolor2 from "../assets/images/colors/novofence-private/Charcoal-Wood-Texture.png";
