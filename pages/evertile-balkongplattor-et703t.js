@@ -120,7 +120,7 @@ const evertilebalkongplattoret703t = () => {
 
                                                                     <Grid container spacing={3}>
                                                                         <Grid item xs={6} sm={4} lg={6}>
-                                                                            <a href={`${process.env.PUBLIC_URL}/bestall-prov`} className="thm-btn" >beställ prov</a>
+                                                                            <a href="/bestall-prov" target="_blank" className="thm-btn" >beställ prov</a>
                                                                         </Grid>
                                                                     </Grid>
                                                                 </div>
@@ -210,13 +210,13 @@ const evertilebalkongplattoret703t = () => {
 
                                                     <Grid container spacing={3}>
                                                         <Grid item xs={6} sm={2}>
-                                                            <a href="assets/pdfs/Broschyr-SV.pdf">
+                                                            <a href="https://storage.googleapis.com/greenplankdata1/Broschyr-SV.pdf" target="_blank">
                                                                 <img src={pdfimg1} className="img-fluid" alt="" />
                                                             </a>
                                                         </Grid>
 
                                                         <Grid item xs={6} sm={2}>
-                                                            <a href="assets/pdfs/golvplattor/Green-Plank-kompositplattor-Monteringsguide.pdf">
+                                                            <a href="https://storage.googleapis.com/greenplankdata1/Green-Plank-kompositplattor-Monteringsguide.pdf" target="_blank">
                                                                 <img src={pdfimg3} className="img-fluid" alt="" />
                                                             </a>
                                                         </Grid>

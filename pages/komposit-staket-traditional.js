@@ -129,7 +129,7 @@ const kompositstakettraditional = () => {
 
                                                     <Grid container spacing={3}>
                                                         <Grid item xs={6} sm={3} lg={6}>
-                                                            <a href={`${process.env.PUBLIC_URL}/bestall-prov`} className="thm-btn" >beställ prov</a>
+                                                            <a target="_blank" href="/bestall-prov" className="thm-btn" >beställ prov</a>
                                                         </Grid>
                                                     </Grid>
                                                 </div>
@@ -432,13 +432,13 @@ const kompositstakettraditional = () => {
 
                                     <Grid container spacing={3}>
                                         <Grid item xs={6} sm={2}>
-                                            <a href="assets/pdfs/Broschyr-SV.pdf">
+                                            <a target="_blank" href="https://storage.googleapis.com/greenplankdata1/Broschyr-SV.pdf">
                                                 <img src={pdfimg1} className="img-fluid" alt="" />
                                             </a>
                                         </Grid>
                                    
                                         <Grid item xs={6} sm={2}>
-                                            <a href="assets/pdfs/NovofenceTraditional™/Green-Plank-Traditional-Installeringsanvisning.pdf">
+                                            <a target="_blank" href="https://storage.googleapis.com/greenplankdata1/Green-Plank-Traditional-Installeringsanvisning.pdf">
                                                 <img src={pdfimg3} className="img-fluid" alt="" />
                                             </a>
                                         </Grid>

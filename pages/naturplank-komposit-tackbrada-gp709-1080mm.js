@@ -106,7 +106,7 @@ const naturplankkompositplankagp709 = () => {
                                                 <div className="row mt-60">
                                                     <Grid container spacing={3}>
                                                         <Grid item xs={6} sm={4} lg={6}>
-                                                            <a href={`${process.env.PUBLIC_URL}/bestall-prov`} className="thm-btn" >beställ prov</a>
+                                                            <a target="_blank" href="/bestall-prov" className="thm-btn" >beställ prov</a>
                                                         </Grid>
                                                     </Grid>
                                                 </div>

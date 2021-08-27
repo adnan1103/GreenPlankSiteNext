@@ -4,7 +4,7 @@ import HeaderTwo from "../components/header/header-two";
 import StickyHeader from "../components/header/sticky-header";
 import PageHeader from "../components/page-header";
 import { Container, Row, Col } from "react-bootstrap";
-import blogImg from "../assets/images/blog/Design-tips-av-utedäck.webp";
+import blogImg from "../assets/images/blog/Trall-Installeeer.webp";
 import Footer from "../components/footer";
 import Head from "next/head";
 

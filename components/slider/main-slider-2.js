@@ -36,107 +36,15 @@ const MainSliderTwo = () => {
 
   return (
     <div className="row">
-      <div className="col-lg-7 p-0">
-    <section className="main-slider main-slider__two">
-      <Swiper {...mainSlideOptions}>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner1})` }}
-          ></div>
-
-          <Container>
-            <Row className=" justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-          
-                <img src={icon1} alt="icon1"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner2})` }}
-          ></div>
-          <Container>
-            <Row className=" justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-
-                  <img src={icon2} alt="icon2"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner3})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-                <img src={icon3} alt="icon3"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner4})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-                <img src={icon4} alt="icon4"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner5})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-                <img src={icon5} alt="icon5"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="image-layer"
-            style={{ backgroundImage: `url(${banner6})` }}
-          ></div>
-
-          <Container>
-            <Row className="justify-content-start">
-              <Col xl={6} lg={12} className="text-left">
-                <img src={icon6} alt="icon6"/>
-              </Col>
-            </Row>
-          </Container>
-        </SwiperSlide>
-        <div className="swiper-pagination" id="main-slider-pagination"></div>
-      </Swiper>
-    </section>
-    </div>
-    <div className="col-lg-5 p-0">
-    <section style={{padding:"5em 2em 3em 4em",background:"black"}}>
+      <div className="col-lg-5 p-0">
+        <section style={{ padding: "5em 2em 3em 4em", background: "black" }}>
           <div>
             <div className="block-title text-left">
               <h3>
-                <span style={{color:"white"}}>Green Plank</span>
+                <span style={{ color: "white" }}>Green Plank</span>
               </h3>
             </div>
-            <h2 style={{marginBottom:"1em",color:"white",fontSize:"1rem"}}>
+            <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
               Miljövänlig komposit produkter med lågt underhåll
             </h2>
 
@@ -177,6 +85,98 @@ const MainSliderTwo = () => {
 
             </Grid>
           </div>
+        </section>
+      </div>
+      <div className="col-lg-7 p-0">
+        <section className="main-slider main-slider__two">
+          <Swiper {...mainSlideOptions}>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner1})` }}
+              ></div>
+
+              <Container>
+                <Row className=" justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+
+                    <img src={icon1} alt="icon1" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner2})` }}
+              ></div>
+              <Container>
+                <Row className=" justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+
+                    <img src={icon2} alt="icon2" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner3})` }}
+              ></div>
+
+              <Container>
+                <Row className="justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+                    <img src={icon3} alt="icon3" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner4})` }}
+              ></div>
+
+              <Container>
+                <Row className="justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+                    <img src={icon4} alt="icon4" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner5})` }}
+              ></div>
+
+              <Container>
+                <Row className="justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+                    <img src={icon5} alt="icon5" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className="image-layer"
+                style={{ backgroundImage: `url(${banner6})` }}
+              ></div>
+
+              <Container>
+                <Row className="justify-content-start">
+                  <Col xl={6} lg={12} className="text-left">
+                    <img src={icon6} alt="icon6" />
+                  </Col>
+                </Row>
+              </Container>
+            </SwiperSlide>
+            <div className="swiper-pagination" id="main-slider-pagination"></div>
+          </Swiper>
         </section>
       </div>
     </div>

@@ -110,7 +110,7 @@ const everdeck = () => {
 
                                                                     <Grid container spacing={3}>
                                                                         <Grid item xs={6} sm={4} lg={6}>
-                                                                            <a href={`${process.env.PUBLIC_URL}/bestall-prov`} className="thm-btn" >beställ prov</a>
+                                                                            <a target="_blank" href="/bestall-prov" target="_blank" className="thm-btn" >beställ prov</a>
                                                                         </Grid>
 
                                                                     </Grid>
@@ -181,13 +181,13 @@ const everdeck = () => {
 
                                                     <Grid container spacing={3}>
                                                         <Grid item xs={6} sm={2}>
-                                                            <a href="assets/pdfs/Broschyr-SV.pdf">
+                                                            <a target="_blank" href="https://storage.googleapis.com/greenplankdata1/Broschyr-SV.pdf">
                                                                 <img src={pdfimg1} className="img-fluid" alt="" />
                                                             </a>
                                                         </Grid>
 
                                                         <Grid item xs={6} sm={2}>
-                                                            <a href="assets/pdfs/Everdeck/everdeck-swedish-with-aluminum-trims.pdf">
+                                                            <a target="_blank" href="https://storage.googleapis.com/greenplankdata1/everdeck-swedish-with-aluminum-trims.pdf">
                                                                 <img src={pdfimg4} className="img-fluid" alt="" />
                                                             </a>
                                                         </Grid>

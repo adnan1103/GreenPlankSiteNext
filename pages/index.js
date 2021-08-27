@@ -16,9 +16,11 @@ import Head from "next/head";
 import Footer from "../components/footer";
 
 const HomeTwo = () => {
+  console.log(process.env.authAPIkey);
   return (
     <>
       <Head>
+      <meta name="robots" content="NOINDEX,NOFOLLOW"/>
         <meta name="title" content="Bästa komposittrall | golvplattor | staket och många fler!" />
         <meta name="description" content="Green Plank är det ledande svenska varumärket för hållbara byggprodukter i Sverige. Skandinavisk kvalitets Komposittrall, Fasadbeklädnad, Plankor, Staket." />
       </Head>
@@ -41,3 +43,15 @@ const HomeTwo = () => {
 };
 
 export default HomeTwo;
+
+
+export async function  getServerSideProps(){
+
+  console.log(process.env.authAPIkey);
+
+  return{
+    props:{
+      hello:'world'
+    }
+  }
+}
