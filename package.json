@@ -1,7 +1,7 @@
 {
   "name": "azino-react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "https://demo2.greenplank.se/",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
