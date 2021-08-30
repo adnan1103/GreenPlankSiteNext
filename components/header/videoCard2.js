@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Container, Row, Col } from "react-bootstrap";
 import bgImage from "../../assets/images/backgrounds/video-cta.webp";
 
@@ -13,13 +13,13 @@ const VideoCard2 = () => {
                 <Row>
                     <Col xl={6}>
                         <section className="video-card">
-                            <ModalVideo
+                            {/* <ModalVideo
                                 channel="youtube"
                                 autoplay
                                 isOpen={isOpen}
                                 videoId="u5aosoMYRt4"
                                 onClose={() => setOpen(false)}
-                            />
+                            /> */}
                             <div
                                 className="video-card__bg"
                                 style={{ backgroundImage: `url(${bgImage})` }}

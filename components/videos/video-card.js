@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Container } from "react-bootstrap";
 import bgImage from "../../assets/images/backgrounds/5-1-1024x273.webp";
 import heart from "../../assets/images/shapes/192-by-192.png";
@@ -9,13 +9,13 @@ const VideoCard = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <section className="video-card">
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="m20hG3KpQtI"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <div
         className="video-card__bg"
         style={{ backgroundImage: `url(${bgImage})` }}
