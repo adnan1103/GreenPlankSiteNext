@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Container, Row, Col } from "react-bootstrap";
 import videoBg from "../../assets/images/shapes/video-bg-1-1.png";
 import videoImage from "../../assets/images/resources/video-1-1.png";
@@ -8,13 +8,13 @@ const VideoCardTwo = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <section className="video-card-two">
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="L61p2uyiMSo"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <Container>
         <div
           className="inner-container"
