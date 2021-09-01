@@ -2235,7 +2235,7 @@ h6 {
 .stricky-header .main-menu__list > li > span,
 .stricky-header .main-menu__list > li > a {
   font-family: var(--thm-font);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2718,7 +2718,7 @@ h6 {
 .stricky-header .container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;

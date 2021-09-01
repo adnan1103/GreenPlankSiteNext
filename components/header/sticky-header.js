@@ -28,11 +28,11 @@ const StickyHeader = ({ extraClassName }) => {
     >
       <div className="container">
         <div className="logo-box">
-          <Link href="/">
+          {/* <Link href="/">
             <a aria-label="logo image">
               <img src={logoLight} width="101" alt="" />
             </a>
-          </Link>
+          </Link> */}
         </div>
         <div className="sticky-header__content">
           <NavLinks />
