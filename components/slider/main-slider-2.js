@@ -63,7 +63,7 @@ const MainSliderTwo = () => {
                 <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn" ><center>Smart komposittrall</center></a>
               </Grid>
               <Grid item xs={6} sm={6}>
-                <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn" >Trall Planerare</a>
+                <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://deckplanner.greenplank.eu/" className="thm-btn" >Trall Planerare</a>
               </Grid>
 
             </Grid>
@@ -72,7 +72,7 @@ const MainSliderTwo = () => {
                 <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn" >Smart vs Traditionell</a>
               </Grid>
               <Grid item xs={6} sm={6}>
-                <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://fenceplanner.greenplank.eu/" className="thm-btn" >Staket Planerare</a>
+                <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn" >Staket Planerare</a>
               </Grid>
 
             </Grid>
